@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+html{
+	font-size: 62.5%;
+}
+body{
+	color: #606060;
+	font-family: 'Renner*', 'Noto Sans JP', sans-serif;
+	font-size: 1.4rem;
+	font-feature-settings: "palt";
+	letter-spacing: 0.05em;
+}
+a{
+	color: #606060;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*-----------------------
+ *utility
+ -----------------------*/
+.wrapper {
+	margin: 0 auto;
+	width: 920px;
+	box-sizing: border-box;
+}
+.text-center{
+	text-align: center;
+}
+.page{
+	margin-top: 72px;
+}
+.bg-gray{
+	background-color: #F7F8FA;
+}
+.section-title{
+	font-size: 2.2rem;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+.font-color-gray{
+	color: #afafaf;
+}
+
+/*-----------------------
+ *header
+ -----------------------*/
+.header-title{
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+.header-name{
+	font-size: 1.2rem;
+	margin-bottom: 120px;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+}
+
+/*-----------------------
+ *works
+ -----------------------*/
+.section-works{
+	padding: 80px 0;
+}
+
+.work-items{
+	margin-left: -80px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.work-item{
+	padding-left: 80px;
+	margin-bottom: 60px;
+}
+.work-item:hover{
+	opacity: 0.7;
+	transition: all 0.3s ease-in-out;
+}
+.work-th{
+	width: 120px;
+	height: 120px;
+	margin-bottom: 5px;
+}
+.work-th-title{
+	font-size: 1.1rem;
+}
+
+/*-----------------------
+ *about
+ -----------------------*/
+.section-about{
+	padding: 80px 0;
+}
+.my-name{
+	margin-bottom: 15px;
+	font-size: 1.9rem;
+	letter-spacing: 0.4em;
+}
+.my-title{
+	margin-bottom: 60px;
+	letter-spacing: 0.3em;
+	font-size: 1.1rem;
+}
+.my-profile{
+	margin-bottom: 60px;
+	line-height: 2.5;
+}
+.my-skill-title{
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	margin-bottom: 15px;
+}
+.my-skills{
+	line-height: 2;
+}
+
+/*-----------------------
+ *work個別ページ
+ -----------------------*/
+.work-page{
+	background: #F7F8FA;
+}
+.work-contents{
+	display: flex;
+}
+.work-category{
+	font-size: 2.8em;
+	margin-top: 100px;
+	margin-bottom: 116px;
+}
+.work-category::after{
+	content: '';
+    display: block;
+    background: #606060;
+    height: 3px;
+    width: 30px;
+    margin-top: 10px;
+}
+.work-description{
+	position: fixed;
+	width: 250px;
+	height: 100vh;
+}
+.work-title{
+	font-size: 1.7rem;
+	font-weight: bold;
+	margin-bottom: 30px;
+	line-height: 2;
+}
+.work-text{
+	margin-bottom: 20px;
+	line-height: 2;
+}
+.use-application{
+	font-size: 1.1rem;
+	margin-bottom: 60px;
+	line-height: 2;
+}
+.work-img{
+	width: 600px;
+}
+.back-to-work-btn{
+	display: block;
+	width: 115px;
+	font-size: 1.2rem;
+	opacity: 0.6;
+	border-bottom: solid 1px #606060;
+	padding-bottom: 8px;
+}
+.btn-arrow{
+	display: inline-block;
+	border-top: solid 1px #606060;
+	border-right: solid 1px #606060;
+	width: 5px;
+	height: 5px;
+	transform: rotate(45deg);
+	margin-left: 8px;
+}
+.back-to-work-btn:hover{
+	letter-spacing: 0.08em;
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.work-imgs{
+	width: 600px;
+	padding-top: 260px;
+	padding-left: 320px;
+}
+.work-img{
+	display: block;
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.work-img:first-of-type{
+	margin-bottom: 120px;
+}
