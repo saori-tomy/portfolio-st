@@ -49,6 +49,7 @@ img{
 	color: #afafaf;
 }
 
+
 /*-----------------------
  *header
  -----------------------*/
@@ -110,6 +111,7 @@ img{
 	margin-bottom: 60px;
 	letter-spacing: 0.3em;
 	font-size: 1.1rem;
+	line-height: 2;
 }
 .my-profile{
 	margin-bottom: 60px;
@@ -167,9 +169,7 @@ img{
 	margin-bottom: 60px;
 	line-height: 2;
 }
-.work-img{
-	width: 600px;
-}
+
 .back-to-work-btn{
 	display: block;
 	width: 115px;
@@ -206,4 +206,94 @@ img{
 }
 .work-img:first-of-type{
 	margin-bottom: 120px;
+}
+
+
+@media screen and (max-width: 480px){
+	
+/*-----------------------
+ *utility
+ -----------------------*/
+	.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	box-sizing: border-box;
+	}
+	.br-sp{
+		display: none;
+	}
+	
+/*-----------------------
+ *header
+ -----------------------*/
+	
+	.header-name{
+		margin-bottom: 80px;
+	}
+	
+/*-----------------------
+ *works
+ -----------------------*/
+	.section-works{
+	padding: 50px 0;
+	}
+
+	.work-items{
+	margin-left: -50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+	.work-item{
+	padding-left: 50px;
+	margin-bottom: 60px;
+	}
+
+/*-----------------------
+ *about
+ -----------------------*/
+	.my-profile{
+		text-align: left;
+	}
+	
+/*-----------------------
+ *work個別ページ
+ -----------------------*/
+	.work-page{
+		background: #F7F8FA;
+		
+	}
+	.work-contents{
+		display: block;
+	}
+	.work-description{
+		position: static;
+		width: 90vw;
+		height: auto;
+		margin: 0 auto 100px;
+	}
+	.work-category{
+		font-size: 2.8em;
+		padding-top: 60px;
+		margin-top: 0;
+		margin-bottom: 80px;
+	}
+	.work-imgs{
+		width: 90vw;
+		padding-top: 0;
+		padding-left: 0;
+	}
+	.work-img{
+		display: block;
+		width: auto;
+		margin: 0 auto;
+		padding-bottom: 60px;
+		margin-bottom: 0;
+	}
+	.work-img:first-of-type{
+		padding-bottom: 60px;
+		margin-bottom: 0;
+	}
+	
+	
 }
