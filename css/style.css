@@ -344,6 +344,12 @@ img{
 		transform: rotate(45deg);
 		margin-left: 8px;
 	}
+	.back-to-work-btn::after {
+		display: none;
+	}
+	.back-to-work-btn:hover::after {
+		display: none;
+	}
 	
 	
 }
