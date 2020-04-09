@@ -185,7 +185,7 @@ img{
 	width: 6px;
 	height: 6px;
 	transform: rotate(45deg);
-	margin-left: 6px;
+	margin-right: 10px;
 }
 .back-to-work-btn:hover {
 	cursor: pointer;
@@ -329,7 +329,7 @@ img{
 		right: 12px;
 		background-color: #909090;
 		font-size: 1.2rem;
-		padding: 12px;
+		padding: 12px 12px 12px 2px;
 		border-bottom: none;
 		color: #fff;
 		opacity: 1;
